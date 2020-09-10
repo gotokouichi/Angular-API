@@ -354,6 +354,7 @@
   <div id="mn">
     <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
       <!-- カナ氏名カラム -->
+      
       <ng-container matColumnDef="authorKana">
         <th mat-header-cell *matHeaderCellDef> カナ氏名 </th>
         <td mat-cell *matCellDef="let element"> {{element.Item.authorKana}} </td>
